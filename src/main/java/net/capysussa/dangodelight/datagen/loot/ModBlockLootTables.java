@@ -13,13 +13,15 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockLootTables extends BlockLootSubProvider {
 
-    protected ModBlockLootTables() {
+    public ModBlockLootTables() {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags());
     }
 
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.WHITE_RICE_DUMPLING_BLOCK.get());
+        this.dropSelf(ModBlocks.LIGHT_GRAY_RICE_DUMPLING_BLOCK.get());
+        this.dropSelf(ModBlocks.RED_RICE_DUMPLING_BLOCK.get());
     }
 
     @Override
