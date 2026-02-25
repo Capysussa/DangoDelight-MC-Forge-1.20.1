@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "dangodelight:block/white_rice_dumpling_block"
-    }
-}
